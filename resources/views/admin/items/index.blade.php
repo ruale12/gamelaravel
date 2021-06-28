@@ -1,5 +1,5 @@
 @extends("layouts.app")
 
 @section("container")
-  <h1>Admin</h1>
+  <h1>ITEMS</h1>
 @endsection
