@@ -17,14 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home',function(){
-  return "holamundo";
-});
-
-Route::get('/parametro/{name}',function($name){
-  return "hola ". $name;
-});
-
-Route::get('/greting/{name}',function($name){
-  return view('hi', ['name' => $name]);
-});
+Route::get('/admin', 'AdminController@index');
